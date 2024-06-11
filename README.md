@@ -1,2 +1,3 @@
-# next-korean-route
-convert routes in their Next.js applications to Korean. 
+# Next.js Korean Route
+
+Convert routes in their Next.js applications to Korean.
