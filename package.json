@@ -1,7 +1,7 @@
 {
-  "name": "next-korean-route",
+  "name": "ts-color",
   "version": "0.0.1",
-  "description": "Convert routes in their Next.js applications to Korean.",
+  "description": "Infer and systematically manage palette colors within a project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

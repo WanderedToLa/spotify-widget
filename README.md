@@ -1,3 +1,3 @@
-# Next.js Korean Route
+# Type Color🎨
 
-Convert routes in their Next.js applications to Korean.
+Infer and systematically manage palette colors within a project
