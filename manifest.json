@@ -3,8 +3,12 @@
   "description": "Spotify widget in chrome extensions",
   "version": "1.0",
   "manifest_version": 3,
+  "action": {
+    "default_popup": "dist/popup.html",
+    "default_title": "Widget"
+  },
 
   "background": {
-    "service_worker": "dist/index.js"
+    "service_worker": "dist/background.js"
   }
 }
