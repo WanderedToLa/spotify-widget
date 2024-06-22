@@ -1,3 +1,3 @@
-# Type Color🎨
+# Spotify Widget
 
-Infer and systematically manage palette colors within a project
+spotify widget in chrome extensions

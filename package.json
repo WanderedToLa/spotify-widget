@@ -1,7 +1,7 @@
 {
-  "name": "ts-color",
+  "name": "spotify-widget",
   "version": "0.0.1",
-  "description": "Infer and systematically manage palette colors within a project",
+  "description": "spotify widget in chrome extensions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
