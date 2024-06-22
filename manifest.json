@@ -1,0 +1,10 @@
+{
+  "name": "Spotify Widget",
+  "description": "Spotify widget in chrome extensions",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "dist/index.js"
+  }
+}

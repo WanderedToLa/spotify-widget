@@ -1,1 +1,1 @@
-type A = 'A';
+export * from './background';

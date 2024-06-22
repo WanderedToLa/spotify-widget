@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
-    "module": "ESNext",
-    "declaration": true,
-    "target": "ESNext",
-    "moduleResolution": "bundler",
+    "target": "es2016",
+    "lib": ["dom", "es6"],
+    "jsx": "react",
+    "moduleResolution": "node",
     "strict": true,
-    "outDir": "dist/",
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"
   },
-  "include": ["src/"],
-  "exclude": ["dist/", "node_modules/"]
+  "include": ["src"]
 }
