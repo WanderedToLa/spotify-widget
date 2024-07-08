@@ -3,12 +3,15 @@
   "description": "Spotify widget in chrome extensions",
   "version": "1.0",
   "manifest_version": 3,
-  "action": {
-    "default_popup": "dist/popup.html",
-    "default_title": "Widget"
+  "permissions": ["sidePanel"],
+  "side_panel": {
+    "default_path": "dist/sidepanel.html"
   },
 
+  "action": {
+    "default_title": "Click to open panel"
+  },
   "background": {
-    "service_worker": "dist/background.js"
+    "service_worker": "service-worker.js"
   }
 }

@@ -5,8 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    background: path.resolve('src/background.ts'),
-    popup: path.resolve('src/popup/index.tsx'),
+    // background: path.resolve('src/background.ts'),
+    sidepanel: path.resolve('src/sidepanel/index.tsx'),
   },
   module: {
     rules: [
@@ -32,7 +32,7 @@ module.exports = {
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
     }),
-    ...getHtmlPlugins(['popup']),
+    ...getHtmlPlugins(['sidepanel']),
   ],
   output: {
     filename: '[name].js',
