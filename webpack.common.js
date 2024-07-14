@@ -5,8 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    // background: path.resolve('src/background.ts'),
-    sidepanel: path.resolve('src/sidepanel/index.tsx'),
+    // sidepanel: path.resolve('src/sidepanel/index.tsx'),
+    contentScript: path.resolve('src/content-script/index.ts'),
   },
   module: {
     rules: [
