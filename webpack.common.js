@@ -32,7 +32,7 @@ module.exports = {
     new CleanWebpackPlugin({
       cleanStaleWebpackAssets: false,
     }),
-    ...getHtmlPlugins(['sidepanel']),
+    // ...getHtmlPlugins(['sidepanel']),
   ],
   output: {
     filename: '[name].js',
