@@ -5,7 +5,7 @@
   "manifest_version": 3,
 
   "action": {
-    "default_title": "Click to open panel"
+    "default_title": "Click to open spotify widget"
   },
   "background": {
     "service_worker": "service-worker.js"
