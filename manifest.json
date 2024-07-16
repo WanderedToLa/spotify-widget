@@ -8,12 +8,12 @@
     "default_title": "Click to open spotify widget"
   },
   "background": {
-    "service_worker": "service-worker.js"
+    "service_worker": "dist/serviceworker.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["dist/contentScript.js"]
+      "js": ["dist/contentscript.js"]
     }
   ],
   "permissions": ["activeTab", "scripting"]

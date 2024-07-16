@@ -5,4 +5,5 @@ spotify widget in chrome extensions
 ## TODO
 
 [ ] contentscript onload  
-[ ] serviceworker -> ts
+[x] serviceworker -> ts
+[ ] serviceworker load contentscript path
