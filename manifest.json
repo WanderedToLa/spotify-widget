@@ -16,5 +16,5 @@
       "js": ["dist/contentscript.js"]
     }
   ],
-  "permissions": ["activeTab", "scripting"]
+  "permissions": ["activeTab", "tabs", "scripting"]
 }

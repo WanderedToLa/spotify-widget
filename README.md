@@ -5,6 +5,6 @@ spotify widget in chrome extensions
 ## TODO
 
 - [x] serviceworker -> ts
-- [ ] serviceworker load contentscript path
+- [x] serviceworker contentscript path
 - [ ] onClick icon toggle contentscript
 - [ ] contentscript set innerhtml (width/z-index/fixed position)
